@@ -1,0 +1,93 @@
+site_name: Exploring the Simulation Documentation
+
+extra_css:
+  - style.css
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.action.edit
+    - navigation-auto-collapse
+  language: en
+  font:
+    text: Avenir
+  palette: 
+      #primary: custom
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        primary: custom
+        accent: custom
+        scheme: slate
+        toggle:
+          icon: fontawesome/solid/circle-half-stroke
+          name: Switch to light mode
+
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        primary: custom
+        accent: custom
+        scheme: default
+        toggle:
+          icon: fontawesome/solid/circle-half-stroke
+          name: Switch to dark mode
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/kenp-io
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kenpillonel
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/kpillonel/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/TMefY68JNp
+    - icon: fontawesome/brands/patreon
+      link: https://patreon.com/ExploringTheSimulation
+    - icon: fontawesome/brands/shopify
+      link: https://shop.kenp.io/
+    - icon: fontawesome/solid/pen-to-square
+      link: https://kenp.io/
+markdown_extensions:
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 Exploring the Simulation Sàrl
+
+nav:
+  - Home: index.md
+  - AirPods:
+    - Compatibility: airpods/compatibility.md
+    - Versions: airpods/versions.md
+    - Video Guide: airpods/video.md
+    - Repair and Upgrade Guide: airpods/repair-upgrade-guide.md
+  - AirPods PRO:
+    - USB-C Kit:
+      - Compatibility: airpods-pro/usb-c-kit/compatibility.md
+      - Versions: airpods-pro/usb-c-kit/versions.md
+      - Video Assembly Guide: airpods-pro/usb-c-kit/video.md
+      - Assembly Guide (v3.1): airpods-pro/usb-c-kit/v3dot1_assembly.md
+      - Assembly Guide (v3): airpods-pro/usb-c-kit/v3_assembly.md
+      - Assembly Guide (v0.2+v0.1): airpods-pro/usb-c-kit/v0dot2_assembly.md
