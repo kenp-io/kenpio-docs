@@ -1,0 +1,956 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../v3dot1_assembly/">
+      
+      
+        <link rel="next" href="../v0dot2_assembly/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Assembly Guide (v3) - Exploring the Simulation Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Avenir";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#usb-c-kit-v3-assembly-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Exploring the Simulation Documentation" class="md-header__button md-logo" aria-label="Exploring the Simulation Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Exploring the Simulation Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Assembly Guide (v3)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M448 256c0-106-86-192-192-192v384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M448 256c0-106-86-192-192-192v384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Exploring the Simulation Documentation" class="md-nav__button md-logo" aria-label="Exploring the Simulation Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Exploring the Simulation Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AirPods
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            AirPods
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../airpods/compatibility/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compatibility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../airpods/versions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Versions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../airpods/video/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Video Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../airpods/repair-upgrade-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Repair and Upgrade Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AirPods PRO
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            AirPods PRO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    USB-C Kit
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            USB-C Kit
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compatibility/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compatibility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../versions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Versions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../video/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Video Assembly Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../v3dot1_assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assembly Guide (v3.1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Assembly Guide (v3)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Assembly Guide (v3)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intro" class="md-nav__link">
+    Intro
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../v0dot2_assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Assembly Guide (v0.2+v0.1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="usb-c-kit-v3-assembly-guide">USB-C Kit (v3) - Assembly Guide</h1>
+<p>(last updated on 22.10.23)</p>
+<hr />
+<h2 id="intro">Intro</h2>
+<p>Before, you start:</p>
+<ul>
+<li>Check the <a href="../compatibility/">compability of your case</a></li>
+<li>Check your <a href="../versions/">kit version number</a> and make sure it matches the version of this guide</li>
+<li>Watch the <a href="../video/">video</a>, but then follow this guide when you install your kit</li>
+</ul>
+<hr />
+<h2 id="tools">Tools</h2>
+<ul>
+<li>A vise, I’m using a Stanley 83-069, but you can use any vise. Just make sure you can open the jaws wide enough to fit the 61mm length of the case. Ideally your vise has soft rubber jaws, mine has nice removable ones. If you don’t have soft jaws, you can use metal jaws and protect your case with masking tape.</li>
+<li>A Torx T4 screwdriver, T5 also works. </li>
+<li>A pair of fine tweezers.</li>
+<li>A small quantity of Isopropyl Alcohol (otherwise known as IPA, 2-propanol or Isopropanol). Make sure you get 99 percent purity or above. Sometimes if you get it from a pharmacy or drug store they can sell you 60 percent purity and it’s really not great for electronics. It's important to note that rubbing alcohol may sometimes contain other additives, so it might not be 100% isopropyl alcohol. Pure Acetone could also potentially help if you only have this. Do not use WD-40.</li>
+<li>
+<p>A guitar pick. I found that the Ernie Ball Everlast 0.73mm works great. If you placed an order before 25.04.23 you will get a guitar pick with your PCB, otherwise you can order one from my shop. They usually come in packs of 12 if you buy them yourself.</p>
+</li>
+<li>
+<p>(Optional) A hot air gun, heat gun, or hair dryer.</p>
+</li>
+</ul>
+<hr />
+<h2 id="installation">Installation</h2>
+<p>Ok, let’s get started. Let me show you what we are trying to achieve. We want to break the glue bonds, especially around the plastic teeth.  </p>
+<figure id="front_teeth_location">
+<p><img alt="Front Teeth Location" src="../pictures/front_teeth.jpg" />
+  </p>
+<figcaption><b>Figure 1.</b> Front Teeth Location</figcaption>
+</figure>
+<figure id="side_and_back_teeth_location">
+<p><img alt="Side and Back Teeth Location" src="../pictures/side_back_teeth.jpg" />
+  </p>
+<figcaption><b>Figure 2.</b> Side and Back Teeth Location</figcaption>
+</figure>
+<p>Clamp your case sideways, make sure you removed the AirPods buds and that the lid is open. We want to start closing the jaws to apply pressure on the case. </p>
+<figure id="side_pressure">
+<p><img alt="Side Pressure" src="../pictures/clamping.jpg" />
+  </p>
+<figcaption><b>Figure 3.</b> Side Pressure</figcaption>
+</figure>
+<p>That pressure will create two small gaps between the middle frame and the outer shell. Once you have a gap big enough to fit the guitar pick, you can insert it (Figure <a href="#first_guitar_pick_insertion">4</a>, small arrow) and slide the guitar pick on the side as shown (Figure <a href="#first_guitar_pick_insertion">4</a>, direction of the big arrow). This will break the glue bond.</p>
+<figure id="first_guitar_pick_insertion">
+<p><img alt="First Guitar Pick Insertion" src="../pictures/guitar_first.jpg" />
+  </p>
+<figcaption><b>Figure 4.</b> First Guitar Pick Insertion</figcaption>
+</figure>
+<p>Now we rotate the case 90 degrees and clamp it in the vise. Make sure you leave at least a 10mm gap on top of the jaws (Figure <a href="#clamping_gap">5</a>, double arrow). Insert your guitar pick in the front of the device and slide it on one side as far as it will go (Figure <a href="#corner_stop_and_ipa_application">6</a> shows where you can stop). While sliding the guitar pick, I found that making a "wave" motion helped, I show this in the video at the top of the page.   </p>
+<figure id="clamping_gap">
+<p><img alt="Clamping Gap" src="../pictures/vice_gap.jpg" />
+  </p>
+<figcaption><b>Figure 5.</b> Clamping Gap</figcaption>
+</figure>
+<p>Leave the Guitar Pick inserted and squeeze a few drops of IPA so that it flows through the gaps you just created and let it sit for 30 seconds. After the 30 seconds, remove the Guitar Pick.</p>
+<figure id="corner_stop_and_ipa_application">
+<p><img alt="Corner Stop and IPA application" src="../pictures/first_corner.jpg" />
+  </p>
+<figcaption><b>Figure 6.</b> Corner Stop and IPA application</figcaption>
+</figure>
+<p>Insert the Guitar Pick near the LED and repeat the same sliding operation for the other corner. Squeeze a few drops of IPA so that it flows through the gaps you just created and let it sit for 30 seconds. After the 30 seconds, leave the Guitar Pick inserted.</p>
+<p>Rotate the case 180 degrees and clamp it in the vise.</p>
+<p>What we want to do is to keep the Guitar Pick in that gap and continue working our way to the back of the case. As soon as you can, you will want to partially close the lid and push the Guitar Pick behind the lid (shown on Figure <a href="#first_back_corner_and_ipa_application">7</a>). Go as far back as you can, then drop some IPA and wait 30 seconds. </p>
+<figure id="first_back_corner_and_ipa_application">
+<p><img alt="First Back Corner and IPA application" src="../pictures/first_back_corner.jpg" />
+  </p>
+<figcaption><b>Figure 7.</b> First Back Corner and IPA application</figcaption>
+</figure>
+<p>Remove the Guitar Pick and insert it in the other corner. Repeat the same procedure to make your way to the back of the case (shown on Figure <a href="#second_back_corner_and_ipa_application">8</a>). Drop some IPA and wait 30 seconds. Keep the Guitar Pick inserted.</p>
+<figure id="second_back_corner_and_ipa_application">
+<p><img alt="Second Back Corner and IPA application" src="../pictures/second_back_corner.jpg" />
+  </p>
+<figcaption><b>Figure 8.</b> Second Back Corner and IPA application</figcaption>
+</figure>
+<p>Slide the Guitar Pick through the back of the case in order to join the other corner (Figure <a href="#back_side_sliding">9</a>, direction of the arrow). Do not insert the Guitar Pick too deep in the case for this, as the Wireless Charging Coil is located right underneath the hinge. About 2mm deep is good. I found that rotating the Guitar Pick along its center of mass while having a forward movement helped to slide it through the back without going too deep. </p>
+<p>Remove the Guitar Pick. </p>
+<figure id="back_side_sliding">
+<p><img alt="Back Side Sliding" src="../pictures/back_sliding.jpg" />
+  </p>
+<figcaption><b>Figure 9.</b> Back Side Sliding</figcaption>
+</figure>
+<p>Rotate the case 180 degrees and clamp it in the vise.</p>
+<p>We will now lift the top assembly out, meaning that most of the glue bonds should be broken by now. If you see that a side is already lifting up, that's a very good sign. If not, it's ok, but the next step needs to be done with gentle force and control over your arm movement. If you try too hard to lift the assembly, it might suddenly lift quickly and you will rip and break the flex connectors. </p>
+<figure id="wrist_twisting_movement">
+<p><img alt="Wrist Twisting Movement - Left Corner" src="../pictures/rocking_movement.jpg" />
+  </p>
+<figcaption><b>Figure 10.</b> Wrist Twisting Movement - Left Corner</figcaption>
+</figure>
+<p>Open the lid, grab it with your hand, lift it upward while twisting your wrist left and right. We are trying to slowly lift the left corner for about 1mm (Figure <a href="#wrist_twisting_movement">10</a>), then the right corner for about 1mm, then the left corner again for 1mm, etc. Go slowly and there really shouldn't be any problem. </p>
+<p>If you feel like you are applying too much force, start the tutorial over and this time you can go a little deeper with the Guitar Pick in order to further break down the glue bonds. </p>
+<p>Slowly lift the top assembly out, revealing the two B2B (board-to-board) connectors and flex cables (Figure <a href="#lightning_and_wireless_charging_flex_cables">11</a>).</p>
+<figure id="lightning_and_wireless_charging_flex_cables">
+<p><img alt="Lightning and Wireless Charging flex cables" src="../pictures/top_lift.jpg" />
+  </p>
+<figcaption><b>Figure 11.</b> Lightning and Wireless Charging flex cables</figcaption>
+</figure>
+<p>(Optional, but strongly recommended) Heat up the glue around the two B2B connectors. If you can control the temperature, do not go above 120 degrees Celsius for about 45 seconds. This will help for the next step.</p>
+<p>Use tweezers or any other prying tool to disconnect the two B2B connectors (Figure <a href="#lightning_and_wireless_charging_connectors">12</a>). Watch out for the small SMD components soldered on the mainboard next to those connectors, you do not want to rip them off.</p>
+<figure id="lightning_and_wireless_charging_connectors">
+<p><img alt="Lightning and Wireless Charging connectors" src="../pictures/b2b_connectors.jpg" />
+  </p>
+<figcaption><b>Figure 12.</b> Lightning (bottom) and Wireless Charging (top) B2B connectors</figcaption>
+</figure>
+<p>We now have the bottom shell separated. </p>
+<p>We can remove the two Torx T4 screws holding the Lightning connector (Figure <a href="#torx_screws_and_wiggle_motion">13</a>, single arrows). The connector is weakly held by glue and you can just push it back and forth (Figure <a href="#torx_screws_and_wiggle_motion">13</a>, motion shown by double arrow) to remove it. </p>
+<figure id="torx_screws_and_wiggle_motion">
+<p><img alt="Torx Screws and Wiggle Motion" src="../pictures/torx_screws.jpg" />
+  </p>
+<figcaption><b>Figure 13.</b> Torx Screws and Wiggle Motion</figcaption>
+</figure>
+<p>Unglue the LED from the Outer Shell (Figure <a href="#led_removal">14</a>)</p>
+<figure id="led_removal">
+<p><img alt="LED Removal" src="../pictures/unglue_led.jpg" />
+  </p>
+<figcaption><b>Figure 14.</b> LED Removal</figcaption>
+</figure>
+<p>You can now completely remove the Lightning connector from the Outer Shell.</p>
+<p>Push the bottom metal slot out with your screwdriver (motion shown on Figure <a href="#metal_slot_removal">15</a>). </p>
+<figure id="metal_slot_removal">
+<p><img alt="Metal Slot Removal" src="../pictures/metal_slot.jpg" />
+  </p>
+<figcaption><b>Figure 15.</b> Metal Slot Removal</figcaption>
+</figure>
+<p>Now we install the new USB-C connector. </p>
+<p>We start by bending it correctly so that we don’t have issues later. The LED should bend down (Figure <a href="#global_bending">16</a>, small arrow) and the B2B connector bend up (Figure <a href="#global_bending">16</a>, big arrow).</p>
+<figure id="global_bending">
+<p><img alt="Global Bending" src="../pictures/bending_all.jpg" />
+  </p>
+<figcaption><b>Figure 16.</b> Global Bending</figcaption>
+</figure>
+<p>We also need to bend the flex cable near the B2B connector. There are two white lines on the PCB acting as guides (an example is shown on Figure <a href="#b2b_bending">17</a>, big arrow). You need to bend the flex PCB where those white lines are. The white line is always "inside" the bend. Do not bend the PCB completely flat, add a small radius to your bend. It might tear if you don't add a small radius to your bend. The final bend should look like an "S", and the connector should be facing out (Figure <a href="#b2b_bending">17</a>, small arrow). </p>
+<figure id="b2b_bending">
+<p><img alt="B2B Bending" src="../pictures/bending_b2b.jpg" />
+  </p>
+<figcaption><b>Figure 17.</b> B2B Bending</figcaption>
+</figure>
+<p>Using super knips (or something like a small pair of scissors), cut the PCB and its stiffener along the 4 red lines (Figure <a href="#v3_stiffener_fix">A1</a>, left). Just make sure to not damage the flex part leading to the LED (Figure <a href="#v3_stiffener_fix">A1</a>, arrow). We basically want to remove the parts of the PCB that are highlighted with the 2 red squares. The result is shown on the right of Figure <a href="#v3_stiffener_fix">A1</a>.</p>
+<p>You don't really risk breaking something with this step because you are only cutting ground planes, it doesn't matter if they shortcircuit each other. This step is a fix to improve the connector alignment with the case. It is already done for you if you have v3.1.</p>
+<figure id="v3_stiffener_fix">
+<p><img alt="v3 Stiffener Fix" src="../pictures/v3_stiffener_fix.jpg" />
+  </p>
+<figcaption><b>Figure A1.</b> v3 Stiffener Fix</figcaption>
+</figure>
+<p>Take one Torx T4 screw and insert it in the hole on the side where most components are soldered. The trick is is to insert it from the side and rotate it in place, shown on Figure <a href="#screw_rotation">18</a>. The PCB might bend very slightly so that you can insert it, but that's ok. This "pre-insertion" is necessary because we now have a stiffener and it will be too difficult to install this screw once it's placed inside the case.</p>
+<figure id="screw_rotation">
+<p><img alt="Screw Rotation" src="../pictures/screw_side.jpg" />
+  </p>
+<figcaption><b>Figure 18.</b> Screw Insertion</figcaption>
+</figure>
+<p>Place the USB-C connector inside the Outer Shell while making sure the B2B connector is facing where the hinge slot is located and the LED is facing the other side (where the LED hole is). This is why we bent the connector on Figure <a href="#global_bending">16</a>.</p>
+<p>Add the other Torx T4 screw in its hole. Screw in the two Torx T4 screws about halfway.</p>
+<p>(Important) Now, connect a USB-C cable at the bottom of the shell and then tighten the screws all the way. This is to make sure that everything is lined up properly. Disconnect the USB-C cable.</p>
+<p>Place the LED inside its slot on the inside of the Outer Shell. You basically need to do the opposite of what Figure <a href="#led_removal">14</a> showed you. You can use the rest of the red double-sided tape to secure it in place.</p>
+<p>Partially slide back in the top assembly and connect the two B2B connectors. Plug in a USB-C cable and make sure it is charging and everything works well. Do not go further if you don't see your AirPods charging at this point. If it doesn't charge, you most likely didn't plug in the B2B connector to the mainboard properly.</p>
+<p>If everything works well, you can optionally add some hot glue to the two B2B connectors (shown on Figure <a href="#lightning_and_wireless_charging_connectors">12</a>) to make sure they don't get disconnected in the future. </p>
+<p>Make sure the USB-C B2B connector bends properly (the "S" shape shown on Figure <a href="#b2b_bending">17</a>) and close the whole thing. The Wireless Charging B2B connector should bend similarly. If you can't close it all the way down, it's because the connector is not bending like the "S" shape.</p>
+<hr />
+<p>You did it!! Congrats :) Because you bought from my shop, you gained writing access to my Discord server with the QR code on the paper inside your order. Please post a picture of your final result! You can also tweet it at me if you'd like. I would really appreciate it and will definitely congratulate you again.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 Exploring the Simulation Sàrl
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/kenp-io" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/kenpillonel" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/kpillonel/" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/TMefY68JNp" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://patreon.com/ExploringTheSimulation" target="_blank" rel="noopener" title="patreon.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://shop.kenp.io/" target="_blank" rel="noopener" title="shop.kenp.io" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M388.32 104.1a4.66 4.66 0 0 0-4.4-4c-2 0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76 472s-54.04-365.5-54.44-367.9Zm-99.67-33.63a116.67 116.67 0 0 0-7.21-17.61C271 32.85 255.42 22 237 22a15 15 0 0 0-4 .4c-.4-.8-1.2-1.2-1.6-2-8-8.77-18.4-12.77-30.82-12.4-24 .8-48 18-67.25 48.83-13.61 21.62-24 48.84-26.82 70.06-27.62 8.4-46.83 14.41-47.23 14.81-14 4.4-14.41 4.8-16 18-1.2 10-38 291.82-38 291.82L307.86 504V65.67a41.66 41.66 0 0 0-4.4.4s-5.6 1.6-14.81 4.4Zm-55.24 17.22c-16 4.8-33.63 10.4-50.84 15.61 4.8-18.82 14.41-37.63 25.62-50 4.4-4.4 10.41-9.61 17.21-12.81 6.81 14.37 8.41 33.99 8.01 47.2Zm-32.83-63.25A27.49 27.49 0 0 1 215 28c-6.4 3.2-12.81 8.41-18.81 14.41-15.21 16.42-26.82 42-31.62 66.45-14.42 4.41-28.83 8.81-42 12.81 8.76-38.39 41.18-96.43 78.01-97.23Zm-46.43 220.17c1.6 25.61 69.25 31.22 73.25 91.66 2.8 47.64-25.22 80.06-65.65 82.47-48.83 3.2-75.65-25.62-75.65-25.62l10.4-44s26.82 20.42 48.44 18.82c14-.8 19.22-12.41 18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44 27.22-93.27 94.47-97.68 26-1.6 39.23 4.81 39.23 4.81l-15.21 57.6s-17.21-8-37.63-6.4c-29.62 2.01-30.02 20.81-29.62 25.62Zm95.27-161.73c0-12-1.6-29.22-7.21-43.63 18.42 3.6 27.22 24 31.23 36.43q-10.81 3-24.02 7.2Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://kenp.io/" target="_blank" rel="noopener" title="kenp.io" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0l-30.1 30 97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2l-18.7-18.6zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5l167.3-167.4-98-98-167.3 167.4zM96 64c-53 0-96 43-96 96v256c0 53 43 96 96 96h256c53 0 96-43 96-96v-96c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.action.edit", "navigation-auto-collapse"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
