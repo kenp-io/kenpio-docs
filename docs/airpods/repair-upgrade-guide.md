@@ -11,7 +11,7 @@ ___
 
 ## Tools
 * A vise, or something to hold firmly your AirPods case while leaving your hands free.
-* A dremel, or anything that can cut plastic while having a little bit of control over the cutting depth. Doesn't need to be fancy. That could be something like a metal or wood saw, a metal sanding stick, a hot (or ultrasonic) knife, or even something like super knips. 
+* A dremel, or anything that can cut plastic while having a little bit of control over the cutting depth. Doesn't need to be fancy. That could be something like a metal or wood saw, a metal sanding stick, a hot (or ultrasonic) knife, a soldering iron with a flat tip, or even something like super knips. 
 * A metal spudger.
 * A Phillips PH00 screwdriver. It's the most common screwdriver out there for small screws, it has the "+" shape.
 * A Phillips PH0 screwdriver. Very common, it also has the "+" shape, just slightly bigger.
