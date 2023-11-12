@@ -1,5 +1,5 @@
 # AirPods Repair and Upgrade Guide
-(last updated on 07.11.23)
+(last updated on 12.11.23)
 ___
 ## Intro
 
