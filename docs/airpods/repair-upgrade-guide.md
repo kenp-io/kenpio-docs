@@ -229,11 +229,20 @@ Insert the drill bit in the **Lanyard Hole** and simply drill all the way throug
 
 Insert the drill bit in the **Screw Hole**. This is where you don't want to mess up. Again, we want to drill a hole in the white lower plastic part of the case assembly, but that's it, not further. The thickness of the white plastic is 1.3mm, so you shouldn't go much further than that. Basically just make sure you don't drill all the way through. 
 
-Remove the case assembly from the outer shell. Insert back the nut from (Figure [21](#big_screw_and_nut_removal). If you stuggle to insert it, it is because it only fits with a certain orientation, shown on the left on Figure [25](#nut_orientation).
+Remove the case assembly from the outer shell. Insert back the nut from Figure [21](#big_screw_and_nut_removal). If you struggle to insert it, it is because it only fits with a certain orientation, shown on the left on Figure [25](#nut_orientation).
 
 <figure markdown id="nut_orientation">
   ![Nut Orientation](pictures/nut_orientation.jpg)
 <figcaption><b>Figure 25.</b> Nut Orientation (left is good, right won't work)</figcaption>
+</figure>
+
+(Optional if you have A1938. For A1602 you need to skip this.) Salvage the diffuser (Figure [26](#diffuser_spacer), big arrow) by pushing it from the outside of the original case with a needle. Then you can just install it in its new place (Figure [26](#diffuser_spacer), right picture).
+
+(Optional if you didn't install a USB-C kit. You need to skip this if you installed USB-C.) Salvage the metal spacer (Figure [26](#diffuser_spacer), small arrow). Insert it at the bottom of the new shell, should be a snap fit. This will help filling the gap between the shell and the Lightning connector.
+
+<figure markdown id="diffuser_spacer">
+  ![Diffuser and Spacer Salvaging](pictures/diffuser_spacer.jpg)
+<figcaption><b>Figure 26.</b> Diffuser and Spacer Salvaging</figcaption>
 </figure>
 
 Slide the case assembly back in the shell, while making sure the button is properly aligned (Figure [23](#button_insertion)). Screw back in the big screw from Figure [21](#big_screw_and_nut_removal).
