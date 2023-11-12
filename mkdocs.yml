@@ -1,4 +1,6 @@
 site_name: Exploring the Simulation Documentation
+site_url: https://docs.kenp.io/
+edit_uri: https://github.com/kenp-io/kenpio-docs/edit/main/docs
 
 extra_css:
   - style.css
