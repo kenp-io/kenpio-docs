@@ -76,7 +76,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2023 Exploring the Simulation Sàrl
+  &copy; 2024 Exploring the Simulation Sàrl
 
 nav:
   - Home: index.md
@@ -93,3 +93,9 @@ nav:
       - Assembly Guide (v3.1): airpods-pro/usb-c-kit/v3dot1_assembly.md
       - Assembly Guide (v3): airpods-pro/usb-c-kit/v3_assembly.md
       - Assembly Guide (v0.2+v0.1): airpods-pro/usb-c-kit/v0dot2_assembly.md
+  - AirPods MAX:
+    - USB-C Kit:
+      - Compatibility: airpods-max/usb-c-kit/compatibility.md
+      - Versions: airpods-max/usb-c-kit/versions.md
+      - Video Assembly Guide: airpods-max/usb-c-kit/video.md
+      - Assembly Guide (v1): airpods-max/usb-c-kit/v1_assembly.md
