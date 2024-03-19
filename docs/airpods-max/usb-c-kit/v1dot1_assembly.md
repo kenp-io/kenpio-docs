@@ -1,5 +1,5 @@
 # USB-C Kit (v1.1) - Assembly Guide - AirPods Max
-(last updated on 11.03.24)
+(last updated on 19.03.24)
 ___
 ## Intro
 
@@ -19,6 +19,7 @@ ___
 * A Pentalobe P5 (=1.2mm) screwdriver.
 * A Torx T1 screwdriver that has a total length of 7cm or below. I recommend using a T1 screwdriver tip because it is only around 3cm in total length, so it works perfectly for our application.
 * A Torx T3 screwdriver. 
+* A Torx T5 screwdriver. 
 * A pair of fine tweezers.
 * A vise, I’m using a Stanley 83-069, but you can use any vise. Ideally your vise has soft rubber jaws, mine has nice removable ones. If you don’t have soft jaws, you can use metal jaws and protect your case with masking tape.
 
@@ -30,7 +31,7 @@ Start by removing the Right Ear Cushion. It is magnetically attached and can be 
 
 Detach the whole Right Ear Assembly from the headband. To do so, insert the SIM eject tool (or paper clip) inside the little hole at the top (Figure [1](#remove-headband), small straight arrow) and push the headband out (Figure [1](#remove-headband), direction of big straight arrow).
 
-Using the Pentalobe P5 screwdriver, turn each screw in the direction of the curved arrows ((Figure [1](#remove-headband)). You will only be able to turn about a quarter turn. This is normal.
+Using the Pentalobe P5 screwdriver, turn each screw in the direction of the curved arrows (Figure [1](#remove-headband)). You will only be able to turn about a quarter turn. This is normal.
 
 <figure markdown id="remove-headband">
   ![Headband and Plastic Cover Removal](pictures/remove-headband-v2.jpg)
@@ -55,7 +56,7 @@ Disconnect the B2B connector that was underneath the metal bracket. You can now 
   <figcaption><b>Figure 3.</b> Plastic Cup Flex Removal</figcaption>
 </figure>
 
-As with any teardown, you'll want to disconnect the battery as soon as possible. To do so, remove the T3 screw (Figure [4](#battery-removal), big arrow) and the T1 screw (Figure [4](#battery-removal), small arrow). 
+As with any teardown, you'll want to disconnect the battery as soon as possible. To do so, remove the T3 screw (Figure [4](#battery-connector-removal), big arrow) and the T1 screw (Figure [4](#battery-connector-removal), small arrow). 
 
 Remove the metal bracket that was underneath the screws.
 
@@ -81,14 +82,14 @@ You can now carefully lift the speaker and set it aside.
   <figcaption><b>Figure 5.</b> Speaker Removal</figcaption>
 </figure>
 
-Remove the three T3 screws (Figure [6](#battery-top-screw)).
+Remove the three T3 screws (Figure [6](#battery-top-screws)).
 
 <figure markdown id="battery-top-screws">
   ![Battery Top Screws Removal](pictures/battery-top-screws.jpg)
   <figcaption><b>Figure 6.</b> Battery Top Screws Removal</figcaption>
 </figure>
 
-Remove the final two Pentalobe P5 screws (Figure [7](#battery-top-screw)) holding the battery in place.
+Remove the final two Torx T5 screws (Figure [7](#battery-side-screws)) holding the battery in place.
 
 You can now carefully lift away and remove the battery. The two cells (one on each side) are connected together with a cable. If you just want to replace the battery you can stop here and follow the instructions backwards. The battery is surprisingly easy to replace... kudos to Apple for once!
 
@@ -110,7 +111,7 @@ Remove the two T3 screws (Figure [8](#lightning-disconnect), big arrows).
   <figcaption><b>Figure 8.</b> Lightning and Mic Connector Removal</figcaption>
 </figure>
 
-Carefully slide the power board away while making sure it doesn't get stuck on the flex B2B connectors we previously disconnected (on Figure [8](#lightning-disconnect) and [4](#battery-removal)). The power board will still be connected with a cable (Figure [9](#power-board-removal)), so watch out not to damage it.
+Carefully slide the power board away while making sure it doesn't get stuck on the flex B2B connectors we previously disconnected (on Figure [8](#lightning-disconnect) and [4](#battery-connector-removal)). The power board will still be connected with a cable (Figure [9](#power-board-removal)), so watch out not to damage it.
 
 <figure markdown id="power-board-removal">
   ![Power Board Removal](pictures/power-board-removal.jpg)
@@ -139,7 +140,7 @@ You need to jam a screwdriver in the charging hole. The screwdriver needs to hav
   <figcaption><b>Figure 11.</b> Metal Lip Detail</figcaption>
 </figure>
 
-You can now secure the main chassis in a vise and carefully hammer down the metal lip. Watch out to not damage the power board that is still hanging (from Figure [9](#power-board-removal)). Make sure to only hit the gray part! Here we really want to avoid hitting the blue part (that will depend on the colorway of your headphones). The metal lip will just fall down.
+You can now secure the main chassis in a vise and carefully hammer down the metal lip (Figure [12](#metal-lip-hammer)). Watch out to not damage the power board that is still hanging (from Figure [9](#power-board-removal)). Make sure to only hit the gray part! Here we really want to avoid hitting the blue part (that will depend on the colorway of your headphones). The metal lip will just fall down.
 
 Disassembly is over, we can now install the USB-C kit!
 
@@ -148,7 +149,7 @@ Disassembly is over, we can now install the USB-C kit!
   <figcaption><b>Figure 12.</b> Metal Lip Hammering</figcaption>
 </figure>
 
-Place the power board back in place while making sure the B2B connector (Figure [4](#battery-removal), small arrow) goes on top of the board.
+Place the power board back in place while making sure the B2B connector (Figure [4](#battery-connector-removal), small arrow) goes on top of the board.
 
 Stick the round spacer in place (Figure [13](#round-spacer), right arrow). The color of the spacer might change (here is white, but it can be orange or blue). The tape is already applied on the spacer, you just need to carefully peel off one layer on the light brown side. You need to make sure that the spacer is properly centered and that it doesn't touch any of the surrounding SMD components. If you have some black residue on your fingers, it's just some burn marks from the laser cutting process, nothing to worry about. 
 
@@ -211,9 +212,9 @@ Then insert the microphone holder in between the USB-C connector and the main ch
 
 You're almost there! We just want to reassemble the last few pieces, should be very very easy.
 
-Place the battery back in place. Screw in the two Pentalobe P5 screws from Figure [7](#battery-top-screw).
+Place the battery back in place. Screw in the two Torx T5 screws from Figure [7](#battery-side-screws).
 
-Screw back in the three T3 screws from Figure [6](#battery-top-screw).
+Screw back in the three T3 screws from Figure [6](#battery-top-screws).
 
 Place the speaker back in place. Make sure that golden pins underneath are on the same side where the pins of the power board are. 
 
@@ -226,7 +227,7 @@ Here is a tip if you made some creases on your membrane. Take some tape and very
 
 Screw back in the three T3 screws and the special screw from Figure [5](#speaker-removal).
 
-Connect the two B2B connectors from Figure [4](#battery-removal). Place the metal bracket back on top and screw back in the T3 and T1 screw (from the same Figure).
+Connect the two B2B connectors from Figure [4](#battery-connector-removal). Place the metal bracket back on top and screw back in the T3 and T1 screw (from the same Figure).
 
 Connect the B2B connector from the plastic cup. Make sure the orientation matches Figure [3](#plastic-cup-flex). Place back on top the metal bracket and screw back in the T1 screw. 
 
@@ -236,4 +237,4 @@ Insert the headband back in.
 
 ___
 
-You did it!! Congrats :) Because you bought from my shop, you gained writing access to my Discord server with the QR code on the paper inside your order. Please post a picture of your final result! You can also tweet it at me if you'd like. I would really appreciate it and will definitely congratulate you again.
+You did it!! Congrats :) Because you bought from my shop, you gained writing access to my Discord server with the link inside your order confirmation email. Please post a picture of your final result! You can also tweet it at me if you'd like. I would really appreciate it and will definitely congratulate you again.
