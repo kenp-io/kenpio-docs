@@ -124,7 +124,7 @@ Remove the two T1 screws (Figure [10](#metal-lip-screws), big arrows) with the s
 
 Remove the two T3 screws (Figure [10](#metal-lip-screws), small arrows).
 
-You can now remove the Lightning charging cable and the microphone.
+You can now remove the Lightning charging port and the microphone.
 
 <figure markdown id="metal-lip-screws">
   ![Metal Lip Screws](pictures/metal-lip-screws.jpg)
