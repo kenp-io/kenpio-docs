@@ -1,5 +1,5 @@
 # USB-C Kit (v1.1) - Assembly Guide - AirPods Max
-(last updated on 19.03.24)
+(last updated on 22.03.24)
 ___
 ## Intro
 
@@ -165,7 +165,11 @@ Stick the right-angled spacer in place as shown on the right of Figure [14](#pcb
   <figcaption><b>Figure 14.</b> PCB Spacer Application</figcaption>
 </figure>
 
-Insert the microphone we previously removed inside its custom holder that is included in the kit. With the hole facing down (Figure [15](#mic-holder), shown with the arrow), make sure the microphone PCB is inserted with the flexing part sticking out of the left side (Figure [15](#mic-holder), right image).
+Take the microphone we previously removed. Where the golden rectangle is, but on the opposite side of the flex PCB, there is a very small hole. That's where sounds come in. We will call it the MEMS sound hole. Make sure to carefully peel off all the adhesive surrounding that hole.
+
+Insert the microphone inside its custom holder that is included in the kit. With the hole facing down (Figure [15](#mic-holder), shown with the arrow), make sure the microphone PCB is inserted with the flexing part sticking out of the left side (Figure [15](#mic-holder), right image).
+
+Check that you can clearly see the MEMS sound hole through the hole in the microphone holder (Figure [15](#mic-holder), shown with the arrow).
 
 <figure markdown id="mic-holder">
   ![Microphone Holder Insertion](pictures/mic-holder.jpg)
