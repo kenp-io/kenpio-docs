@@ -100,3 +100,6 @@ nav:
       - Video Assembly Guide: airpods-max/usb-c-kit/video.md
       - Assembly Guide (v1.1): airpods-max/usb-c-kit/v1dot1_assembly.md
       - Assembly Guide (v1): airpods-max/usb-c-kit/v1_assembly.md
+  - Meta Quest 2:
+    - Clear Kit:
+      - Assembly Guide (v1): meta-quest-2/clear-kit/v1_assembly.md

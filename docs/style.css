@@ -15,3 +15,7 @@
 [data-md-color-scheme="default"] {
   --md-typeset-a-color:              #4e4bec;
 }
+
+.video-container {
+  text-align: center;
+}

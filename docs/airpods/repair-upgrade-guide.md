@@ -1,5 +1,5 @@
 # AirPods Repair and Upgrade Guide
-(last updated on 12.11.23)
+(last updated on 01.04.24)
 ___
 ## Intro
 
@@ -249,4 +249,4 @@ Slide the case assembly back in the shell, while making sure the button is prope
 ___
 
 
-You did it!! Congrats :) Because you bought from my shop, you gained writing access to my Discord server with the QR code on the paper inside your order. Please post a picture of your final result! You can also tweet it at me if you'd like. I would really appreciate it and will definitely congratulate you again.
+You did it!! Congrats :) Because you bought from my shop, you gained writing access to my Discord server with the link inside your order confirmation email. Please post a picture of your final result! You can also tweet it at me if you'd like. I would really appreciate it and will definitely congratulate you again.
