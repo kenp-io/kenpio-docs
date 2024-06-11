@@ -1,5 +1,5 @@
 # USB-C Kit (v1.1) - Assembly Guide - AirPods Max
-(last updated on 22.03.24)
+(last updated on 11.06.24)
 ___
 ## Intro
 
@@ -7,7 +7,7 @@ Before, you start:
 
 * Check the [compability of your headphones](compatibility.md)
 * Check your [kit version number](versions.md) and make sure it matches the version of this guide
-* Watch the [video](video.md), but then follow this guide when you install your kit
+* (Optional) Watch some [videos](video.md), but then follow this guide when you install your kit
 
 
 ___
@@ -185,9 +185,9 @@ Insert and screw in the two T3 screws (Figure [16](#usbc-screws), shown with the
   <figcaption><b>Figure 16.</b> Securing the USB-C PCB</figcaption>
 </figure>
 
-We want to connect the flex PCB we just secured in place to the mainboard. To do so, bend the flexible part so that it rotates 180 degrees and connect it to the mainboard by pressing it down with some tweezers (Figure [17](#usbc-screws), left image).
+We want to connect the USB-C flex PCB we just secured in place to the mainboard. To do so, bend the flexible part so that it rotates 180 degrees and connect it to the mainboard by pressing it down with some tweezers (Figure [17](#usbc-screws), left image).
 
-Connect the microphone back to the mainboard while making sure the flex part is pointing in the direction of the charging hole (Figure [17](#usbc-mic-connectors), right image).
+Connect the microphone back to the mainboard while making sure the flex part is pointing in the direction of the charging hole (Figure [17](#usbc-mic-connectors), right image). The microphone flex should not do a 180 degree rotation, only the USB-C flex does that. You can see how the microphone flex connects on Figure [17](#usbc-mic-connectors) (right image), and on Figure [8](#lightning-disconnect).
 
 <figure markdown id="usbc-mic-connectors">
   ![Plugging in the UBS-C and microphone flexes](pictures/usbc-mic-connectors.jpg)
