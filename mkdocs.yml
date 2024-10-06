@@ -80,26 +80,30 @@ copyright: |
 
 nav:
   - Home: index.md
-  - AirPods:
-    - Compatibility: airpods/compatibility.md
-    - Versions: airpods/versions.md
-    - Video Guide: airpods/video.md
-    - Repair and Upgrade Guide: airpods/repair-upgrade-guide.md
-  - AirPods PRO:
-    - USB-C Kit:
+  - AirPods USB-C Protection Cases: 
+    - Instructions: airpods-usb-c-protection-cases/instructions.md
+  - AirPods MAX:
+    - USB-C External Adapter: 
+      - Instructions: airpods-max/usb-c-external-adapter/instructions.md
+    - USB-C Internal Kit:
+      - Compatibility: airpods-max/usb-c-kit/compatibility.md
+      - Versions: airpods-max/usb-c-kit/versions.md
+      - Video Assembly Guide: airpods-max/usb-c-kit/video.md
+      - Assembly Guide (v1.1): airpods-max/usb-c-kit/v1dot1_assembly.md
+      - Assembly Guide (v1): airpods-max/usb-c-kit/v1_assembly.md
+  - AirPods PRO 1:
+    - USB-C Internal Kit:
       - Compatibility: airpods-pro/usb-c-kit/compatibility.md
       - Versions: airpods-pro/usb-c-kit/versions.md
       - Video Assembly Guide: airpods-pro/usb-c-kit/video.md
       - Assembly Guide (v3.1): airpods-pro/usb-c-kit/v3dot1_assembly.md
       - Assembly Guide (v3): airpods-pro/usb-c-kit/v3_assembly.md
       - Assembly Guide (v0.2+v0.1): airpods-pro/usb-c-kit/v0dot2_assembly.md
-  - AirPods MAX:
-    - USB-C Kit:
-      - Compatibility: airpods-max/usb-c-kit/compatibility.md
-      - Versions: airpods-max/usb-c-kit/versions.md
-      - Video Assembly Guide: airpods-max/usb-c-kit/video.md
-      - Assembly Guide (v1.1): airpods-max/usb-c-kit/v1dot1_assembly.md
-      - Assembly Guide (v1): airpods-max/usb-c-kit/v1_assembly.md
+  - AirPods 1 + 2:
+    - Compatibility: airpods/compatibility.md
+    - Versions: airpods/versions.md
+    - Video Guide: airpods/video.md
+    - Repair and Upgrade Guide: airpods/repair-upgrade-guide.md
   - Meta Quest 2:
     - Clear Kit:
       - Assembly Guide (v1): meta-quest-2/clear-kit/v1_assembly.md
