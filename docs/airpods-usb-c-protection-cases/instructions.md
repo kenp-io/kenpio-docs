@@ -27,14 +27,14 @@ Remove the dark yellow paper on the sticker to expose the sticky side.
 
 <figure markdown id="front_teeth_location">
   ![Exposing the second sticker side](pictures/sticker_2.jpg)
-  <figcaption><b>Figure 3.</b> Exposing the second sticker side</figcaption>
+  <figcaption><b>Figure 4.</b> Exposing the second sticker side</figcaption>
 </figure>
 
 Align the front of top part of the protection case with the front of the bottom part and rotate the part in place while holding the front together. 
 
 <figure markdown id="front_teeth_location">
   ![Top Part Alignment](pictures/final_placement.jpg)
-  <figcaption><b>Figure 3.</b> Top Part Alignment</figcaption>
+  <figcaption><b>Figure 5.</b> Top Part Alignment</figcaption>
 </figure>
 
 Press on the down on the top of the top protection case to make sure the sticker bonds correctly. I recommend holding 30 seconds.
