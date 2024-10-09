@@ -2,6 +2,8 @@
 (last updated on 09.10.24)
 ___
 
+This guide works for any generation of AirPods.
+
 Ok, let’s get started. It's very easy. You first start by inserting the bottom part while making sure the buttons are on the same side. It should slide in easily and click in the place near the end of the insertion. If you feel some resistance near the end of the insertion, slide the AirPods case out and check that the Lightning port is straight at the bottom of the protection case.
 
 <figure markdown id="front_teeth_location">
