@@ -82,6 +82,7 @@ nav:
   - Home: index.md
   - AirPods USB-C Protection Cases: 
     - Instructions: airpods-usb-c-protection-cases/instructions.md
+    - Troubleshooting: airpods-usb-c-protection-cases/troubleshooting.md
   - AirPods MAX:
     - USB-C External Adapter: 
       - Instructions: airpods-max/usb-c-external-adapter/instructions.md
