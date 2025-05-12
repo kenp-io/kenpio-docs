@@ -14,12 +14,12 @@ ___
 
 ## Tools
 
-* A SIM eject tool, or a paper clip, or needle. (available in the [shop](https://shop.kenp.io/products/spare-parts-41rp0d-usb-c-protection-case-copy?variant=55198861492601))
+* A SIM eject tool, or a paper clip, or needle. (available in the [shop](https://shop.kenp.io/products/tools?variant=55198861492601){target="_blank"})
 * iSesamo prying tool, or iFixit Jimmy.
-* A Pentalobe P5 (=1.2mm) screwdriver. (available in the [shop](https://shop.kenp.io/products/spare-parts-41rp0d-usb-c-protection-case-copy?variant=55198846878073))
-* A Torx T1 screwdriver that has a total length of 7cm or below. I recommend using a T1 screwdriver tip because it is only around 3cm in total length, so it works perfectly for our application. (available in the [shop](https://shop.kenp.io/products/spare-parts-41rp0d-usb-c-protection-case-copy?variant=55198846779769))
-* A Torx T3 screwdriver. (available in the [shop](https://shop.kenp.io/products/spare-parts-41rp0d-usb-c-protection-case-copy?variant=55198846812537))
-* A Torx T5 screwdriver. (available in the [shop](https://shop.kenp.io/products/spare-parts-41rp0d-usb-c-protection-case-copy?variant=55198846845305))
+* A Pentalobe P5 (=1.2mm) screwdriver. (available in the [shop](https://shop.kenp.io/products/tools?variant=55198846878073){target="_blank"})
+* A Torx T1 screwdriver that has a total length of 7cm or below. I recommend using a T1 screwdriver tip because it is only around 3cm in total length, so it works perfectly for our application. (available in the [shop](https://shop.kenp.io/products/tools?variant=55198846779769){target="_blank"})
+* A Torx T3 screwdriver. (available in the [shop](https://shop.kenp.io/products/tools?variant=55198846812537){target="_blank"})
+* A Torx T5 screwdriver. (available in the [shop](https://shop.kenp.io/products/tools?variant=55198846845305){target="_blank"})
 * A pair of fine tweezers.
 * A vise, I’m using a Stanley 83-069, but you can use any vise. Ideally your vise has soft rubber jaws, mine has nice removable ones. If you don’t have soft jaws, you can use metal jaws and protect your case with masking tape.
 
