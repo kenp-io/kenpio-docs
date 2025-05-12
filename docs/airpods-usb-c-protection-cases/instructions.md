@@ -42,7 +42,7 @@ Align the front of top part of the protection case with the front of the bottom 
   <figcaption><b>Figure 5.</b> Top Part Alignment</figcaption>
 </figure>
 
-Press on the down on the top of the top protection case to make sure the sticker bonds correctly. **Hold while pressing for 30 seconds, this is important.**
+Press down on the top of the top protection case to make sure the sticker bonds correctly. **Hold while pressing for 30 seconds, this is important.**
 
 ___
 
