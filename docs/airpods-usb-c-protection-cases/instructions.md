@@ -1,5 +1,5 @@
 # USB-C Protection Cases for AirPods - Installation Guide
-(last updated on 23.11.24)
+(last updated on 12.05.25)
 ___
 
 This guide works for any generation of AirPods.
