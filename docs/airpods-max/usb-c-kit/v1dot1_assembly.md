@@ -5,7 +5,7 @@ ___
 
 Before, you start:
 
-* Check the [compability of your headphones](compatibility.md)
+* Check the [compatibility of your headphones](compatibility.md)
 * Check your [kit version number](versions.md) and make sure it matches the version of this guide
 * (Optional) Watch some [videos](video.md), but then follow this guide when you install your kit
 
