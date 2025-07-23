@@ -80,6 +80,9 @@ copyright: |
 
 nav:
   - Home: index.md
+  - iPhone USB-C Protection Cases: 
+    - Instructions: iphone-usb-c-protection-cases/instructions.md
+    - Troubleshooting: iphone-usb-c-protection-cases/troubleshooting.md
   - AirPods USB-C Protection Cases: 
     - Instructions: airpods-usb-c-protection-cases/instructions.md
     - Troubleshooting: airpods-usb-c-protection-cases/troubleshooting.md
